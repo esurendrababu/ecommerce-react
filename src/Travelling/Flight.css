@@ -1,0 +1,106 @@
+/* Flight.css */
+
+.flights {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.flights-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.flights-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flight-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 300px;
+  text-align: center;
+}
+
+.flight-card:hover {
+  transform: translateY(-5px);
+}
+
+.flight-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.flight-airline {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.flight-departure,
+.flight-arrival,
+.flight-duration,
+.flight-price {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.book-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .flights-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flight-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+}

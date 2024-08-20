@@ -1,0 +1,93 @@
+/* Mobiles.css */
+.card {
+  margin-top: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border-radius: innerradius+ padding;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card-img, #imagepics {
+    height: 180px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+    background-color: #ffb3ae;
+  }
+  .card-body:hover{
+    
+    background-color: #ff49c2c3;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #b0183d;
+  }
+  
+  
+  #colorbtn{
+    color: #fffb97;
+    background-color: #56e1e9;
+    border-color:#bb63ff;
+  }
+  
+  #colorbtn:hover {
+    border-color:#1f4b2c;
+    /* width: 200px; */
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 20px; */
+    /* height: 55px; */
+    text-align:center;
+    border: none;
+    /* background-size: 300% 100%; */
+
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#colorbtn:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#colorbtn:focus {
+    outline: none;
+}
+
+#colorbtn.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+  
+  #colorbtnprimary:hover {
+    background-color: #0056b3;
+  }
+  
+  .row {
+    margin-top: 1 rem;
+  }
+  
+.imagepics{
+  width: 100px;
+  height: 180px;
+  align-items: center;
+}

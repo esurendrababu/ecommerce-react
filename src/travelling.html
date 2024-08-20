@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">TravelSite</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li class="nav-item"><a href="#tours" class="nav-link">Tours</a></li>
+                <li class="nav-item"><a href="#hotels" class="nav-link">Hotels</a></li>
+                <li class="nav-item"><a href="#flights" class="nav-link">Flights</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#user-account" class="nav-link">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">Explore the World</h1>
+            <p class="hero-text">Discover amazing places at exclusive deals</p>
+            <a href="#" class="hero-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="section-header">
+            <h2>Destinations</h2>
+            <p>Discover the best places to visit</p>
+        </div>
+        <div class="filter-sort">
+            <label for="filter">Filter by:</label>
+            <select id="filter">
+                <option value="popularity">Popularity</option>
+                <option value="rating">Rating</option>
+                <option value="price">Price</option>
+            </select>
+            <label for="sort">Sort by:</label>
+            <select id="sort">
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+        </div>
+        <div class="destinations-container">
+            <div class="destination-item">
+                <img src="images/destination1.jpg" alt="Destination 1">
+                <h3>Paris, France</h3>
+                <p>Explore the city of lights, art, and culture.</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <div class="destination-item">
+                <img src="images/destination2.jpg" alt="Destination 2">
+                <h3>Tokyo, Japan</h3>
+                <p>Discover the blend of tradition and modernity.</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <!-- Add more destinations as needed -->
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="tours">
+        <div class="section-header">
+            <h2>Tours</h2>
+            <p>Find the best tours and experiences</p>
+        </div>
+        <div class="tour-listings">
+            <div class="tour-item">
+                <h3>Eiffel Tower Tour</h3>
+                <p>Price: $50 | Rating: 4.8</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <div class="tour-item">
+                <h3>Mount Fuji Adventure</h3>
+                <p>Price: $100 | Rating: 4.7</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <!-- Add more tours as needed -->
+        </div>
+    </section>
+
+    <!-- Hotels Section -->
+    <section id="hotels" class="hotels">
+        <div class="section-header">
+            <h2>Hotels</h2>
+            <p>Find the best places to stay</p>
+        </div>
+        <div class="hotel-listings">
+            <div class="hotel-item">
+                <h3>Hotel Paris</h3>
+                <p>Price: $150 per night | Rating: 4.5</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <div class="hotel-item">
+                <h3>Tokyo Hotel</h3>
+                <p>Price: $200 per night | Rating: 4.8</p>
+                <button class="details-button">View Details</button>
+            </div>
+            <!-- Add more hotels as needed -->
+        </div>
+    </section>
+
+    <!-- Flights Section -->
+    <section id="flights" class="flights">
+        <div class="section-header">
+            <h2>Flights</h2>
+            <p>Search and book flights</p>
+        </div>
+        <form class="flight-search-form">
+            <label for="departure">Departure City:</label>
+            <input type="text" id="departure" name="departure" required>
+            <label for="arrival">Arrival City:</label>
+            <input type="text" id="arrival" name="arrival" required>
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date" name="return-date">
+            <label for="passengers">Number of Passengers:</label>
+            <input type="number" id="passengers" name="passengers" required>
+            <button type="submit">Search Flights</button>
+        </form>
+        <div class="flight-listings">
+            <div class="flight-item">
+                <h3>Flight 1234</h3>
+                <p>Price: $300 | Non-stop</p>
+                <button class="details-button">Book Now</button>
+            </div>
+            <div class="flight-item">
+                <h3>Flight 5678</h3>
+                <p>Price: $400 | 1 stop</p>
+                <button class="details-button">Book Now</button>
+            </div>
+            <!-- Add more flights as needed -->
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>Our mission is to provide the best travel experiences</p>
+            <h3>Our Vision</h3>
+            <p>To be the leading travel agency worldwide</p>
+            <h3>Our History</h3>
+            <p>Founded in 2020, we have helped thousands of travelers</p>
+            <h3>Our Team</h3>
+            <p>Meet our dedicated team of travel experts</p>
+            <h3>Certifications and Awards</h3>
+            <p>ISO certified, Best Travel Agency Award 2023</p>
+            <h3>Partnerships</h3>
+            <p>We are partners with leading airlines and hotels</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-info">
+                <p>Company Address: 123 Travel St, City, Country</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Email: info@travelsite.com</p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345614534!2d-122.41941548428224!3d37.77492967975815!2m3!1f0!2f0!                !3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809cdd5a59ff%3A0x4d1f0c9de19d5b22!2sGolden%20Gate%20Bridge%2C%20San%20Francisco%2C%20CA%2094129%2C%20USA!5e0!3m2!1sen!2s!4v1596056346163!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="footer-social">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p>&copy; 2024 TravelSite. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+    /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-button:hover {
+    background-color: #e55d00;
+}
+
+/* Section Headers */
+.section-header {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 20px;
+}
+
+.filter-sort {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-sort label {
+    margin: 0 10px;
+}
+
+.destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.destination-item {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.destination-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details-button {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.details-button:hover {
+    background-color: #e55d00;
+}
+
+/* Tours, Hotels, Flights Sections */
+.tours, .hotels, .flights {
+    padding: 20px;
+}
+
+.tour-listings, .hotel-listings, .flight-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tour-item, .hotel-item, .flight-item {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.tour-item h3, .hotel-item h3, .flight-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tour-item p, .hotel-item p, .flight-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.tour-item .details-button, .hotel-item .details-button, .flight-item .details-button {
+    margin-top: 10px;
+}
+
+/* About Us Section */
+.about {
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Contact Us Section */
+.contact {
+    padding: 40px 20px;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #e55d00;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links a, .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    color: #ddd;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+</style>

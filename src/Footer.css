@@ -1,0 +1,73 @@
+/* Example Footer.css content */
+
+#footer{
+  margin: 1.5rem;
+}
+.footer-about img {
+  width: 100px;
+}
+li{
+  color: blueviolet;
+}
+
+.useful-link img,
+.social-links img,
+.address img {
+  width: 50px;
+  height: auto;
+}
+
+.footer-about p,
+.useful-link h2,
+.social-links h2,
+.address h2 {
+  font-size: 16px;
+  color: #df1f1f;
+}
+
+.footer-about a,
+.useful-link a,
+.social-links a,
+.address a {
+  color: #22ff00;
+  text-decoration: none;
+}
+
+.footer-about a,
+.useful-link a,
+.social-links a,
+.address a {
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+  background-size: 200% 100%;
+  background-image: linear-gradient(to left, green 50%, currentColor 50%);
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.footer-about a:hover,
+.useful-link a:hover,
+.social-links a:hover,
+.address a:hover {
+  background-position: 0 0;
+  color: green;
+  transform: scale(1.05);
+}
+
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#footertext{
+  color: aqua;
+}
+#footertext1{
+  color:darkkhaki
+}

@@ -1,0 +1,43 @@
+.save-for-later-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .save-for-later-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .saved-item-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 180px; /* Set the card width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+    text-align: center;
+  }
+  
+  .saved-item-img {
+    width: 100%; /* Full width of the card */
+    height: 180px; /* Adjust height as needed */
+    object-fit: cover;
+  }
+  
+  .saved-item-body {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .saved-item-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .saved-item-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
